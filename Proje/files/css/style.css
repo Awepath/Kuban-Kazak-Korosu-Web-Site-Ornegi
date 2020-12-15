@@ -1,0 +1,250 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    background-color: #f1f1f1;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+
+nav{
+margin-left: 0.5%;
+margin-right: 0.5%;
+margin-bottom: 10px;
+overflow: hidden;
+background-color: palevioletred;
+top:0;
+     box-shadow: 3px 3px 4px #ccc;
+  
+}
+
+
+nav a{
+    float:left;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: floralwhite;
+    font-weight: bold;
+    padding: 15px;
+}
+
+.home{
+    float: right;
+}
+
+
+nav a:hover{
+    background-color: indianred;
+}
+header img{
+    width: 100%;
+    height: 100%;
+}
+
+header{
+height: 400px;
+margin-left: 0.5%;
+margin-right: 0.5%;
+     box-shadow: 3px 3px 4px #ccc;
+    
+}
+
+
+.bolum{
+background-color: #f4f9f8;
+margin-left: 0.5%;
+margin-right: 0.5%;
+padding: 10px;
+box-shadow: 3px 3px 4px #ccc;
+    
+}
+
+
+.Kuban{
+    font-size: 50px;
+    font-family: Helvetica;
+}
+
+.viktor_zak{
+    float: left;
+    width: 15%;
+    
+
+    
+}
+
+
+.resimler{
+    margin-top: 10px;  
+}
+
+
+.resimler img{
+   float: left;
+    width: 100%;
+    padding: 15px; 
+}
+
+.artist{
+background-color: #f4f9f8;
+float: left;
+width: 15%;
+margin-top: 5px;
+margin-bottom: 15px;
+margin-left: 0.8333%;
+margin-right: 0.8333%; 
+   box-shadow: 3px 3px 4px #ccc;
+
+}
+
+
+
+
+
+.artist p{
+    float: left;
+    text-align: center;
+}
+
+.artist img{
+      float: left;
+    opacity: 80%;
+  
+}
+
+.artist img:hover{
+    opacity: 99%;
+}
+
+
+
+.sosyal-medya{
+    background-color: #f4f9f8;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 0.5%;
+margin-right: 0.5%;
+     box-shadow: 3px 3px 4px #ccc;
+   
+}
+
+.sosyal-medya h2{
+    font-size: 2vw;
+     top: 30%;
+   width: 99%;
+     text-align: center;
+}
+
+.iconlar img{
+    height: 45px;
+    width: 45px;
+    opacity: 50%;
+    
+}
+
+.iconlar img:hover{
+    opacity: 100%;
+}
+
+.bolum::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+table{
+    margin: 15px;
+    text-align: center;
+    border:   palevioletred;;
+}
+
+
+footer{
+background-color: #eaeaea;
+padding: 2px;
+margin-top: 5px;
+margin-left: 0.5%;
+margin-right: 0.5%;
+position: relative;
+     box-shadow: 3px 3px 4px #ccc;
+}
+
+footer h3
+{
+    
+top: 30%;
+width: 99%;
+text-align: center;
+}
+
+
+
+@media screen and (max-width:1300px)
+{
+  
+.artist{
+    
+    float: left;
+      
+    width: 24%;
+  margin-left: 0.5%;
+margin-right: 0.5%; 
+ 
+}
+}
+
+
+    
+    
+    @media screen and (max-width:1100px)
+{
+
+    
+.artist{
+   
+    float: left;
+    width: 31%;
+  margin-left: 1.166%;
+margin-right: 1.166%; 
+ 
+margin-bottom: 10px;
+}
+    
+    
+}
+    
+
+@media screen and (max-width:900px)
+{
+
+    
+.artist{
+  
+    float: left;
+    width: 49%;
+  margin-left: 0.5%;
+margin-right: 0.5%; 
+ 
+margin-bottom: 0px;
+}
+    
+    
+     nav a{
+    float:none;
+   width:100%;
+}
+       
+  .sosyal-medya h2{
+    font-size: 3vw;
+    
+}
+      
+
+}
+    
+
